@@ -15,8 +15,8 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-import stirred.base.FactoryEnabled;
-import stirred.base.HandlerAssociation;
+import stirred.util.FactoryEnabled;
+import stirred.util.HandlerAssociation;
 import stirred.handler.DefaultTCPHandler;
 import stirred.handler.factory.HandlerFactory;
 import stirred.protocol.Protocol;
@@ -193,14 +193,14 @@ public class DefaultTCPServer implements FactoryEnabled, NetworkServer {
     }
 
     /* (non-Javadoc)
-     * @see stirred.base.FactoryEnabled#setProtocolFactory(stirred.protocol.ProtocolFactory)
+     * @see stirred.util.FactoryEnabled#setProtocolFactory(stirred.protocol.ProtocolFactory)
      */
     public void setProtocolFactory(ProtocolFactory factory) throws IllegalArgumentException {
         _protocolFactory = factory;
     }
 
     /* (non-Javadoc)
-     * @see stirred.base.FactoryEnabled#getProtocolFactory()
+     * @see stirred.util.FactoryEnabled#getProtocolFactory()
      */
     public ProtocolFactory getProtocolFactory() {
         return _protocolFactory;

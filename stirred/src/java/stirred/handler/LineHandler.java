@@ -37,7 +37,7 @@ public interface LineHandler extends Handler {
      * This method will only be called when the handler is in data mode.
      * @param transport data payload passed in from FactoryEnabled
      * @since 2003/05/08
-     * @see stirred.base.FactoryEnabled
+     * @see stirred.util.FactoryEnabled
      * @see stirred.server.NetworkServer
      * @see stirred.transport.Transport
      */
@@ -49,7 +49,7 @@ public interface LineHandler extends Handler {
      * @param line line of text received
      * @param transport data payload passed in from listener
      * @since 2003/05/08
-     * @see stirred.base.FactoryEnabled
+     * @see stirred.util.FactoryEnabled
      * @see stirred.server.NetworkServer
      * @see stirred.transport.Transport
      */

@@ -9,7 +9,7 @@ package stirred.transport;
  * Abstracts the write operation between Handlers and Listeners.
  * @author <a href="mailto:kevin@electricanvil.com">Kevin A. Smith</a>
  * @see stirred.handler.Handler
- * @see stirred.base.FactoryEnabled
+ * @see stirred.util.FactoryEnabled
  */
 public interface Transport {
     public void writeString(String text) throws TransportWriteException;

@@ -41,7 +41,7 @@ public interface Handler {
      * This method is called whenever a listener has data that 
      * needs to be handled.
      * @param transport data payload passed in from the listener
-     * @see stirred.base.FactoryEnabled
+     * @see stirred.util.FactoryEnabled
      * @see stirred.server.NetworkServer
      * @since 2003/05/08
      */

@@ -9,12 +9,12 @@ import java.nio.channels.Channel;
 
 /**
  * Interface for port-based, ie TCP or UDP, network servers. This interface is normally
- * combined with <code>stirred.base.FactoryEnabled</code> to create a fully-functioning
+ * combined with <code>stirred.util.FactoryEnabled</code> to create a fully-functioning
  * network server.
  * @author <a href="mailto:kevin@electricanvil.com">Kevin A. Smith</a>
  * @version 0.1
  * @since 2003/05/08
- * @see stirred.base.FactoryEnabled
+ * @see stirred.util.FactoryEnabled
  */
 public interface NetworkServer {
 
